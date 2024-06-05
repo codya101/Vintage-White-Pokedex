@@ -1,0 +1,236 @@
+- Pokemon:
+    ID: 001
+    Name: Bulbasaur
+    Ability:
+      Old: Overgrow / None
+      New: Chlorophyll / Overgrow
+    Level_Up:
+      - 1: Take Down
+      - 3: Growl
+      - 7: Leech Seed
+      - 9: Mega Drain
+      - 13: PoisonPowder
+      - 13: Sleep Powder
+      - 15: Sludge
+      - 19: Magical Leaf
+      - 21: Sweet Scent
+      - 25: Growth
+      - 27: Double-Edge
+      - 31: Worry Seed
+      - 33: Synthesis
+      - 34: Giga Drain
+      - 36: Sludge Bomb
+
+- Pokemon:
+    ID: 002
+    Name: Ivysaur
+    Ability:
+      Old: Overgrow / None
+      New: Chlorophyll / Overgrow
+    Level_Up:
+      - 1: Growl
+      - 1: Leech Seed
+      - 1: Take Down
+      - 3: Growl
+      - 7: Leech Seed
+      - 9: Mega Drain
+      - 13: Sleep Powder
+      - 13: PoisonPowder
+      - 15: Sludge
+      - 20: Magical Leaf
+      - 23: Sweet Scent
+      - 28: Growth
+      - 31: Double-Edge
+      - 36: Worry Seed
+      - 39: Synthesis
+      - 40: Giga Drain
+      - 42: Sludge Bomb
+
+- Pokemon:
+    ID: 003
+    Name: Venusaur
+    Moves:
+      Now_compatible_with_TM34: Sludge Wave
+    Ability:
+      Old: Overgrow / None
+      New: Thick Fat / Overgrow
+    Base_Stat_Changes:
+      Old: 80 HP / 82 Atk / 83 Def / 100 SAtk / 100 SDef / 80 Spd / 525 BST
+      New: 80 HP / 72 Atk / 93 Def / 110 SAtk / 100 SDef / 80 Spd / 535 BST
+    Level_Up:
+      - 1: Growl
+      - 1: Leech Seed
+      - 1: Earth Power
+      - 1: Take Down
+      - 3: Growl
+      - 7: Leech Seed
+      - 9: Mega Drain
+      - 13: Sleep Powder
+      - 13: PoisonPowder
+      - 15: Sludge
+      - 20: Magical Leaf
+      - 23: Sweet Scent
+      - 28: Growth
+      - 31: Double-Edge
+      - 32: Giga Drain
+      - 37: Sludge Bomb
+      - 39: Weather Ball
+      - 45: Synthesis
+      - 53: SolarBeam
+      - 70: Leaf Storm
+
+- Pokemon:
+    ID: 004
+    Name: Charmander
+    Ability:
+      Old: Blaze / None
+      New: Solar Power / Blaze
+    Level_Up:
+      - 1: Scratch
+      - 1: Growl
+      - 7: Incinerate
+      - 10: SmokeScreen
+      - 16: Dragon Rage
+      - 19: Scary Face
+      - 25: Fire Fang
+      - 28: Flame Burst
+      - 34: Dragon Pulse
+      - 37: Flamethrower
+      - 43: Slash
+      - 46: Inferno
+
+- Pokemon:
+    ID: 005
+    Name: Charmeleon
+    Ability:
+      Old: Blaze / None
+      New: Solar Power / Blaze
+    Level_Up:
+      - 1: Growl
+      - 1: Ember
+      - 1: Scratch
+      - 7: Incinerate
+      - 10: SmokeScreen
+      - 17: Dragon Rage
+      - 21: Scary Face
+      - 28: Fire Fang
+      - 32: Flame Burst
+      - 39: Dragon Pulse
+      - 43: Flamethrower
+      - 50: Slash
+      - 54: Inferno
+
+- Pokemon:
+    ID: 006
+    Name: Charizard
+    Ability:
+      Old: Blaze / None
+      New: Flash Fire / Blaze
+    Base_Stat_Changes:
+      Old: 78 HP / 84 Atk / 78 Def / 109 SAtk / 85 SDef / 100 Spd / 534 BST
+      New: 78 HP / 84 Atk / 78 Def / 110 SAtk / 85 SDef / 100 Spd / 535 BST
+    Level_Up:
+      - 1: Dragon Pulse
+      - 1: Shadow Claw
+      - 1: Wing Attack
+      - 1: Scratch
+      - 1: Growl
+      - 1: Ember
+      - 1: SmokeScreen
+      - 7: Incinerate
+      - 10: SmokeScreen
+      - 17: Dragon Rage
+      - 21: Scary Face
+      - 28: Fire Fang
+      - 32: Flame Burst
+      - 36: Air Slash
+      - 41: Dragon Pulse
+      - 47: Flamethrower
+      - 56: Slash
+      - 62: Inferno
+      - 71: Heat Wave
+      - 77: Blast Burn
+
+- Pokemon:
+    ID: 007
+    Name: Squirtle
+    Ability:
+      Old: Torrent / None
+      New: Rain Dish / Torrent
+    Level_Up:
+      - 1: Tackle
+      - 4: Tail Whip
+      - 7: Bubble
+      - 10: Withdraw
+      - 13: Water Gun
+      - 16: Bite
+      - 19: Rapid Spin
+      - 22: Protect
+      - 25: Water Pulse
+      - 28: Scald
+      - 31: Hyper Voice
+      - 34: Iron Defense
+      - 35: Dark Pulse
+      - 37: Rain Dance
+      - 40: Hydro Pump
+      - 60: Hydro Cannon
+
+- Pokemon:
+    ID: 008
+    Name: Wartortle
+    Ability:
+      Old: Torrent / None
+      New: Rain Dish / Torrent
+    Level_Up:
+      - 1: Tail Whip
+      - 1: Bubble
+      - 1: Tackle
+      - 4: Tail Whip
+      - 7: Bubble
+      - 10: Withdraw
+      - 13: Water Gun
+      - 16: Bite
+      - 20: Rapid Spin
+      - 22: Water Pulse
+      - 24: Protect
+      - 32: Scald
+      - 36: Hyper Voice
+      - 37: Dark Pulse
+      - 40: Iron Defense
+      - 44: Rain Dance
+      - 48: Hydro Pump
+      - 68: Hydro Cannon
+
+- Pokemon:
+    ID: 009
+    Name: Blastoise
+    Ability:
+      Old: Torrent / None
+      New: Regenerator / Torrent
+    Base_Stat_Changes:
+      Old: 79 HP / 83 Atk / 100 Def / 85 SAtk / 105 SDef / 78 Spd / 530 BST
+      New: 84 HP / 73 Atk / 100 Def / 95 SAtk / 105 SDef / 78 Spd / 535 BST
+    Type:
+      Old: Water / None
+      New: Water / Dragon
+    Level_Up:
+      - 1: Tackle
+      - 1: Dark Pulse
+      - 1: Withdraw
+      - 1: Flash Cannon
+      - 4: Tail Whip
+      - 7: Bubble
+      - 10: Withdraw
+      - 13: Water Gun
+      - 16: Bite
+      - 20: Rapid Spin
+      - 24: Protect
+      - 28: Water Pulse
+      - 32: Scald
+      - 36: Dragon Pulse
+      - 39: Hyper Voice
+      - 46: Iron Defense
+      - 53: Rain Dance
+      - 60: Hydro Pump
+      - 77: Hydro Cannon
+      - 99: Draco Meteor
