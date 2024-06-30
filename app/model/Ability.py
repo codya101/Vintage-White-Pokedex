@@ -1,11 +1,20 @@
 import csv
 import sys 
+import json
 
 class Ability():
     def __init__(self, name, description, generation):
         self.name = name
         self.description = description
         self.generation = generation
+    
+    def to_dict(self):
+        # Convert the Ability object to a dictionary
+        return {
+            'name': self.name,
+            'description': self.description,
+            'generation': self.generation
+        }
 
 class AbilityRepository():
     def __init__(self):
@@ -21,8 +30,18 @@ class AbilityRepository():
                 self.abilities.append(Ability(row['Name'], row['Description'], int(row['Gen']))) 
                 
     def dump_records(self):
+        print(type(self.abilities[0]))
         for ability in self.abilities:
             print(f"Name: {ability.name}, Description: {ability.description}, Generation: {ability.generation}")
+    
+    def get_records(self):
+        return self.abilities
+    
+    def jsonify_abilities(self):
+        # Convert the list of Ability objects to a list of dictionaries
+        abilities_dict_list = [ability.to_dict() for ability in self.abilities]
+        # Convert the list of dictionaries to a JSON string
+        return json.dumps(abilities_dict_list, indent=4)
             
 
 if __name__ == "__main__":
