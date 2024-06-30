@@ -15,3 +15,4 @@ def get_list():
     data = current_app.config['DATA']
     return jsonify(data)
 
+
